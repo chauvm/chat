@@ -7593,6 +7593,8 @@ for V2.6
         public static final int _sec=0x7f0c0047;
         public static final int _updated_=0x7f0c0390;
         public static final int action_settings=0x7f0c046d;
+        public static final int action_sign_in=0x7f0c0471;
+        public static final int action_sign_in_short=0x7f0c0472;
         public static final int added_a_new_page=0x7f0c005a;
         public static final int added_a_page=0x7f0c005b;
         public static final int added_a_to_do_item=0x7f0c0397;
@@ -7669,6 +7671,10 @@ for V2.6
         public static final int declined_to_join_this_chat=0x7f0c0329;
         public static final int deleted_a_comment=0x7f0c02d1;
         public static final int deleted_a_to_do_item=0x7f0c0398;
+        public static final int error_field_required=0x7f0c0478;
+        public static final int error_incorrect_password=0x7f0c0477;
+        public static final int error_invalid_email=0x7f0c0475;
+        public static final int error_invalid_password=0x7f0c0476;
         public static final int failed_to_upload=0x7f0c0107;
         public static final int failed_to_upload_a_file=0x7f0c0108;
         public static final int feedback_mailto=0x7f0c0464;
@@ -7864,6 +7870,12 @@ for V2.6
         public static final int n_pages_saved_pages_failed=0x7f0c0413;
         public static final int please_add_ics_to_calendar=0x7f0c0362;
         public static final int please_remove_ics_from_calendar=0x7f0c0363;
+        public static final int plus_disconnect=0x7f0c0474;
+        public static final int plus_sign_out=0x7f0c0473;
+        /**  Strings related to login 
+         */
+        public static final int prompt_email=0x7f0c046f;
+        public static final int prompt_password=0x7f0c0470;
         /**  Just use standard Pull Down String when pulling up. These can be set for languages which require it 
          */
         public static final int pull_to_refresh_from_bottom_pull_label=0x7f0c0467;
@@ -7911,6 +7923,7 @@ for V2.6
         public static final int sent_a_message_via_email=0x7f0c03c3;
         public static final int set_a_due_date_for_a_to_do_item=0x7f0c03d0;
         public static final int suffix_moxtra_email=0x7f0c0465;
+        public static final int title_activity_login=0x7f0c046e;
         public static final int updated_a_to_do_item=0x7f0c0399;
         public static final int upgrade_url=0x7f0c046a;
         public static final int viewed_a_page=0x7f0c026a;

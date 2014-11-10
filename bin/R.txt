@@ -2000,6 +2000,8 @@ int string _s_Screen 0x7f0c042e
 int string _sec 0x7f0c0047
 int string _updated_ 0x7f0c0390
 int string action_settings 0x7f0c046d
+int string action_sign_in 0x7f0c0471
+int string action_sign_in_short 0x7f0c0472
 int string added_a_new_page 0x7f0c005a
 int string added_a_page 0x7f0c005b
 int string added_a_to_do_item 0x7f0c0397
@@ -2032,6 +2034,10 @@ int string declined_to_join_this_binder 0x7f0c0328
 int string declined_to_join_this_chat 0x7f0c0329
 int string deleted_a_comment 0x7f0c02d1
 int string deleted_a_to_do_item 0x7f0c0398
+int string error_field_required 0x7f0c0478
+int string error_incorrect_password 0x7f0c0477
+int string error_invalid_email 0x7f0c0475
+int string error_invalid_password 0x7f0c0476
 int string failed_to_upload 0x7f0c0107
 int string failed_to_upload_a_file 0x7f0c0108
 int string feedback_mailto 0x7f0c0464
@@ -2062,6 +2068,10 @@ int string mute 0x7f0c018b
 int string n_pages_saved_pages_failed 0x7f0c0413
 int string please_add_ics_to_calendar 0x7f0c0362
 int string please_remove_ics_from_calendar 0x7f0c0363
+int string plus_disconnect 0x7f0c0474
+int string plus_sign_out 0x7f0c0473
+int string prompt_email 0x7f0c046f
+int string prompt_password 0x7f0c0470
 int string pull_to_refresh_from_bottom_pull_label 0x7f0c0467
 int string pull_to_refresh_from_bottom_refreshing_label 0x7f0c0469
 int string pull_to_refresh_from_bottom_release_label 0x7f0c0468
@@ -2087,6 +2097,7 @@ int string select_photos 0x7f0c030f
 int string sent_a_message_via_email 0x7f0c03c3
 int string set_a_due_date_for_a_to_do_item 0x7f0c03d0
 int string suffix_moxtra_email 0x7f0c0465
+int string title_activity_login 0x7f0c046e
 int string updated_a_to_do_item 0x7f0c0399
 int string upgrade_url 0x7f0c046a
 int string viewed_a_page 0x7f0c026a

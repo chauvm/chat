@@ -1408,8 +1408,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int detail_page_delete=0x7f050094;
         public static final int disabled=0x7f050008;
         public static final int edit=0x7f0500c6;
-        public static final int editText1=0x7f05003f;
-        public static final int editText2=0x7f050040;
         public static final int edit_text=0x7f050069;
         public static final int edt_password=0x7f050061;
         public static final int edt_user_name=0x7f050060;
@@ -1491,6 +1489,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int page_vscroll_view=0x7f05006b;
         public static final int pager=0x7f05005c;
         public static final int parentPanel=0x7f05004d;
+        public static final int password=0x7f050040;
         public static final int pb_binder_loading=0x7f05005f;
         public static final int pullDownFromTop=0x7f05000d;
         public static final int pullFromEnd=0x7f05000a;
@@ -1540,6 +1539,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tv_user_guide=0x7f050087;
         public static final int txt_page_title=0x7f0500b1;
         public static final int undo_redo_panel=0x7f050098;
+        public static final int username=0x7f05003f;
         public static final int v_hide_toolbar=0x7f050033;
         public static final int v_horizontal_seperator=0x7f050071;
         public static final int v_horizontal_seperator1=0x7f050076;

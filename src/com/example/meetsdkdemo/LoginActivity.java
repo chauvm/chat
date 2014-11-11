@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class LoginActivity extends Activity {
-
+	public final static String EXTRA_MESSAGE = "com.example.meetskddemo.LoginActivity";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -34,8 +36,23 @@ public class LoginActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void goMeetActivity(View view) {
+	public void verifyUser(View view) {
+		TextView username = (TextView) findViewById(R.id.username);
+		TextView password = (TextView) findViewById(R.id.password);
+		if (!username.getText().toString().equals("") && !password.getText().toString().equals("")) {
+			String role = username.getText().toString();
+			goMeetActivity(view, role);
+		}
+		else {
+			Toast.makeText(this, "Please try again", Toast.LENGTH_SHORT).show();
+		}
+	}
+	public void goMeetActivity(View view, String role) {
 		Intent intent = new Intent(this, MainActivity.class);
+		String message = "";
+		if (role.equals("admin")) { message = "Welcome, admin!"; }
+		else { message = "Hello, " + role; };
+		intent.putExtra(EXTRA_MESSAGE, message);
 		startActivity(intent);
 	}
 }

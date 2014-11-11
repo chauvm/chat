@@ -15,11 +15,11 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="57dp"
-        android:onClick="goMeetActivity"
+        android:onClick="verifyUser"
         android:text="Moxtra" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
@@ -28,7 +28,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button1"
@@ -44,8 +44,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText1"
-        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignBaseline="@+id/username"
+        android:layout_alignBottom="@+id/username"
         android:text="Username"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -53,8 +53,8 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText2"
-        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignBaseline="@+id/password"
+        android:layout_alignBottom="@+id/password"
         android:layout_alignLeft="@+id/textView2"
         android:text="Password"
         android:textAppearance="?android:attr/textAppearanceLarge" />

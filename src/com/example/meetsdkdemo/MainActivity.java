@@ -9,6 +9,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnShowListener;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -64,6 +65,9 @@ public class MainActivity extends Activity implements OnClickListener {
 //		findViewById(R.id.btn_change_meet_color).setOnClickListener(this);
 //		findViewById(R.id.btn_invite).setOnClickListener(this);
 //		findViewById(R.id.btn_unlink).setOnClickListener(this);
+		Intent intent = getIntent();
+		String message = intent.getStringExtra(LoginActivity.EXTRA_MESSAGE);
+		Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
         MXMeetManager.getInstance().setOnEndMeetListener(new MXMeetManager.OnEndMeetListener() {
             @Override
             public void onMeetEnded(String meetId) {
